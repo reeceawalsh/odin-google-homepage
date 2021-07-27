@@ -42,6 +42,10 @@ body {
   opacity: 0.9;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .nav-link:visited {
   color: #222;
 }
@@ -79,10 +83,11 @@ body {
   display: block;
   height: 233px;
   text-align: -webkit-center;
+  margin-bottom: 50px;
 }
 
 #google-img {
-  padding-top: 109px;
+  padding-top: 170px;
   height: 92px;
   aspect-ratio: auto 272 / 92;
   width: 272px;
@@ -118,9 +123,11 @@ body {
 
 .search-icon {
   display: flex;
-  opacity: 0.4;
+  opacity: 1;
   margin-left: 15px;
   width: 7%;
+  width: 25px;
+  height: 25px;
 }
 
 .input-search {
@@ -139,11 +146,19 @@ body {
   margin-left: 15px;
 }
 
+button {
+  border: none;
+  background: transparent;
+}
+
 .microphone-icon {
   display: flex;
   justify-content: flex-start;
   width: 7.5%;
-  opacity: 0.4;
+  opacity: 1;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .buttons {
