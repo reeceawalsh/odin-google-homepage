@@ -14,6 +14,8 @@ body {
   background: none transparent;
 }
 
+/* Nav Bar */
+
 #nav-bar {
   display: flex;
   justify-content: space-between;
@@ -79,6 +81,8 @@ body {
   background: -webkit-linear-gradient(top, #4387fd, #4683ea);
 }
 
+/* Logo */
+
 .logo {
   display: block;
   height: 233px;
@@ -92,6 +96,8 @@ body {
   aspect-ratio: auto 272 / 92;
   width: 272px;
 }
+
+/* Search Form */
 
 .search-form {
   display: flex;
@@ -190,6 +196,8 @@ button {
   border: 1px solid #c6c6c6;
   color: #222;
 }
+
+/* Footer */
 
 .footer {
   display: flex;
